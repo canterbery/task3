@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "strictFunctionTypes": false
+  },
+  "include": ["src", "src/index.js"],
+  "exclude": ["node_modules"]
+}
