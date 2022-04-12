@@ -7,6 +7,6 @@ export default object({
     content: string().required("Note content is required"),
     isArchived: boolean().required("Note active/archived status is required"),
   })
-    .noUnknown(true, "Unknown data")
+    .noUnknown(true, "Unknown data format")
     .strict(),
 });

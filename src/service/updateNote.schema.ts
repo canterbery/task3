@@ -6,6 +6,6 @@ export default object({
     content: string(),
     isArchived: boolean(),
   })
-    .noUnknown(true, "Unknown data")
+    .noUnknown(true, "Unknown data format")
     .strict(),
 });

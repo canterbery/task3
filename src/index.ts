@@ -12,4 +12,12 @@ app.get("/", function (req, res) {
 app.use("/notes", notesRoutes);
 app.use("/stats", statsRoutes);
 
-app.listen(3000);
+async function startApp() {
+  try {
+    app.listen(3000, () => console.log("SERVER STARTED ON PORT 3000"));
+  } catch (e) {
+    console.log(e);
+  }
+}
+
+startApp();
