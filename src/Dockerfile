@@ -1,3 +1,0 @@
-FROM node:14.9.1
-
-EXPOSE 3000
